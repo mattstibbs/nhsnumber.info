@@ -12,7 +12,7 @@ Scotland and Northern Ireland have similar single patient idenfifiers on which t
 The use of the NHS number in health and care organisations is specified in an the [Information Standards Board](https://digital.nhs.uk/data-and-information/information-standards) standard [ISB 0149 NHS Number](https://digital.nhs.uk/data-and-information/information-standards/information-standards-and-data-collections-including-extractions/publications-and-notifications/standards-and-collections/isb-0149-nhs-number)
 
 
-### Number Ranges
+### Live Number Ranges
 
 This tables shows how different ranges within the standard number format are distributed across the UK and Ireland.
 
@@ -22,8 +22,15 @@ This tables shows how different ranges within the standard number format are dis
 |100000000n-319999999n|Scotland|Used for Scottish [Community Health Index (CHI)](https://en.wikipedia.org/wiki/Community_Health_Index_(Scotland)) numbers - which have historically contained the date of birth as the first 6 digits|
 |320000000n-399999999n|Northern Ireland|Used for NI Health and Care Numbers|
 |400000000n-499999999n|England & Wales|Used for [NHS numbers](https://en.wikipedia.org/wiki/NHS_number) in England & Wales|
-|500000000n-599999999n|Testing|Used for NHSCR internal testing|
 |600000000n-799999999n|England & Wales|Used for [NHS numbers](https://en.wikipedia.org/wiki/NHS_number) in England & Wales|
 |800000000n-859999999n|Ireland|Used by the Republic of Ireland|
+
+### Test Number Ranges
+
+This tables shows the ranges not assigned to live use (e.g. testing, unallocated)
+
+| Range | Where Used | Description |
+| ------------- |-------------|-----|
+|500000000n-599999999n|Testing|Used for NHSCR internal testing|
 |860000000n-899999999n|Spare|Unallocated range to allow for future expansion|
 |900000000n-999999999n|Testing|Unallocated and Development / Test systems to use this range|
